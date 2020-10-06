@@ -14,8 +14,23 @@ Modeling  demo microposts
 
 Users resources
      
-      used scaffold to generate users resources
+      1 -used scaffold to generate users resources
       rails generate scaffold User name: string email:string
+      2- Rake db:migrate
+
+     Microposts resources
+     1-used scaffold to generate users resources
+      rails generate scaffold Micropost name: string email:string
+      2- Rake db:migrate
+
+
+Users has_many Micropost
+
+
+  Put micro in Micropost
+  validates :content, lenght: {maximun: 140}    
+
+
 
 
 

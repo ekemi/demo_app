@@ -1,5 +1,25 @@
 # README
 
+Modeling  demo users
+  
+    id : integer
+    name : string
+    email : string
+
+Modeling  demo microposts
+    
+     id : integer
+     content : string
+     user_id : integer
+
+Users resources
+     
+      used scaffold to generate users resources
+      rails generate scaffold User name: string email:string
+
+
+
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
